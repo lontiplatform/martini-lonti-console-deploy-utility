@@ -1,0 +1,29 @@
+name: 'Martini Lonti Console Deploy Utility'
+description: 'Archives and deploys packages to Martini Essentials and Elastic server instances via the Lonti Console.'
+author: 'Lonti <support@lonti.com>'
+inputs:
+  instance_name:
+    description: Domain name of the instance to deploy to. e.g. 'acme123.et.martiniserver.com'
+    required: true
+  access_token:
+    description: Access token for Martini
+    required: true
+  base_dir:
+    description: >
+      Base directory for deployment
+      Default: `/github/workspace`
+  package_dir:
+    description: >
+      Directory containing packages to deploy
+      Default: `packages`
+  description:
+    description: >
+      Deployment description
+      Default: `Deployed by Martini Lonti Console Deploy Utility`
+  tag:
+    description: >
+      The version tag for this deployment
+      Default: `latest`
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
