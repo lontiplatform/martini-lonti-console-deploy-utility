@@ -11,7 +11,7 @@ LABEL \
 
 COPY LICENSE README.md ./
 
-COPY dist/ ./dist/
+COPY dist/ ./
 
 COPY entrypoint.sh ./entrypoint.sh
 
