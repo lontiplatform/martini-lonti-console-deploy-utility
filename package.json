@@ -1,5 +1,5 @@
 {
-  "name": "martini-lonti-console-deploy-utility",
+  "name": "martini-build-pipeline-lonti-managed-hosting",
   "version": "1.0.0",
   "description": "Archives and deploys packages to Martini Essentials and Elastic server instances via the Lonti Console.",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lontiplatform/martini-lonti-console-deploy-utility.git"
+    "url": "git+https://github.com/lontiplatform/martini-build-pipeline-lonti-managed-hosting.git"
   },
   "keywords": [
     "lonti",
@@ -23,9 +23,9 @@
   "author": "Lonti",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lontiplatform/martini-lonti-console-deploy-utility/issues"
+    "url": "https://github.com/lontiplatform/martini-build-pipeline-lonti-managed-hosting/issues"
   },
-  "homepage": "https://github.com/lontiplatform/martini-lonti-console-deploy-utility#readme",
+  "homepage": "https://github.com/lontiplatform/martini-build-pipeline-lonti-managed-hosting#readme",
   "dependencies": {
     "@actions/core": "^1.11.1",
     "archiver": "^7.0.1",
