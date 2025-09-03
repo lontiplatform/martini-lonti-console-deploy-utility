@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 env:
-  REGISTRY_IMAGE: lontiplatform/martini-lonti-console-deploy-utility
+  REGISTRY_IMAGE: lontiplatform/martini-build-pipeline-lonti-managed-hosting
 
 jobs:
   deploy:

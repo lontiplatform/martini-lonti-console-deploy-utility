@@ -21,7 +21,7 @@ export function getInputs(): Inputs {
     description:
       core.getInput("description") ||
       process.env["DESCRIPTION"] ||
-      "Deployed by Martini Lonti Console Deploy Utility",
+      "Deployed by Martini Build Pipeline Lonti Managed Hosting",
     tag: core.getInput("tag") || process.env["TAG"] || "latest",
   };
 

@@ -1,4 +1,4 @@
-name: 'Martini Lonti Console Deploy Utility'
+name: 'Martini Build Pipeline Lonti Managed Hosting'
 description: 'Archives and deploys packages to Martini Essentials and Elastic server instances via the Lonti Console.'
 author: 'Lonti <support@lonti.com>'
 inputs:
@@ -19,7 +19,7 @@ inputs:
   description:
     description: >
       Deployment description
-      Default: `Deployed by Martini Lonti Console Deploy Utility`
+      Default: `Deployed by Martini Build Pipeline Lonti Managed Hosting`
   tag:
     description: >
       The version tag for this deployment
