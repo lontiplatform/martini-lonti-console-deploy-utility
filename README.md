@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy Martini package to Lonti Console
-        uses: lontiplatform/martini-build-pipeline-lonti-managed-hosting@v1.0.0
+        uses: lontiplatform/martini-build-pipeline-lonti-managed-hosting@v1
         with:
           instance_name: my-martini-instance.el.server.com
           access_token: ${{ secrets.ACCESS_TOKEN }}
